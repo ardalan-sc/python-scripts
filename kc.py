@@ -1,4 +1,4 @@
-#Web Scraping By MR.Ant ^_^
+#Web Scraping By MR.Ant ^^
 import requests,re,time,csv,sys
 from bs4 import BeautifulSoup
 
