@@ -1,8 +1,6 @@
 #Web Scraping By MR.Ant ^_^
-
 import requests,re,time,csv,sys
 from bs4 import BeautifulSoup
-
 
 print("the link should be like\n(http://www.kurdcinama.com/episodes2.aspx?type=211&Stype=394&name=01)")
 url = input("Series Link >> ")
@@ -27,7 +25,6 @@ if re.match(r"\w+://www.kurdcinama.com/episodes\w+.aspx.type=\d+&Stype=\d+&name=
 else:
     print('wrong URL (try again)')
     sys.exit()
-
 
 main_url = f"https://www.kurdcinama.com/episodes2.aspx?type={l[0]}&Stype={l[1]}&name="
 num = '0'
@@ -56,6 +53,5 @@ for x in range(1,video_number+1):
     c_writer.writerow([alqa,g])
 
 csv_file.close()
-
 
 
