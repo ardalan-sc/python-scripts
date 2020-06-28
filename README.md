@@ -7,7 +7,7 @@ https://www.instagram.com/ardalan_sc/
 
 
 python online IDE:
-https://repl.it/languages/python
+https://repl.it/
 
 download python:
 https://www.python.org/downloads/
